@@ -1,12 +1,49 @@
-# React + Vite
+# React + Vite Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a lightweight, fast React app built using [Vite](https://vitejs.dev/) for modern frontend development.
 
-Currently, two official plugins are available:
+## 🚀 Quick Setup
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Follow these steps to clone, install, and run the project locally.
 
-## Expanding the ESLint configuration
+### 0. Install Node.js (if you don’t have it)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+To check if Node.js is installed, run:
+```bash
+node -v
+```
+
+If it’s not installed, download it from [nodejs.org](https://nodejs.org/).  
+
+After installing, reopen your terminal and run:
+```bash
+node -v
+npm -v
+```
+Both commands should return version numbers.
+
+---
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/martinha-ssv/GBPFI-survey.git
+cd GBPFI-survey
+```
+
+### 2. Install dependencies
+```bash
+npm install
+```
+
+### 3. Run the development server
+```bash
+npm run dev
+```
+
+Then open your browser and navigate to the local server (usually http://localhost:5173).
+
+## ⚙️ Scripts
+
+- `npm run dev` – start the development server
+- `npm run build` – build for production
+- `npm run preview` – preview the production build locally
