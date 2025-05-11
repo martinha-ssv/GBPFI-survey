@@ -1,7 +1,3 @@
-# React + Vite Project
-
-This is a lightweight, fast React app built using [Vite](https://vitejs.dev/) for modern frontend development.
-
 ## 🚀 Quick Setup
 
 Follow these steps to clone, install, and run the project locally.
