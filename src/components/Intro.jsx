@@ -1,6 +1,8 @@
 export function Intro(props) {
     return (
         <div>
+            <h1>General Beliefs About Physical Functioning Instrument</h1>
+            <h2>Introduction</h2>
             <div>
                 <p>
                     This questionnaire is about your opinion regarding the quality of physical abilities at different ages. For each statement, we ask you to imagine a typical individual from the general population. You only need to place a mark on the response scale (as shown in the example below), <u>which reflects your own opinion about the quality of this individual’s physical abilities at various ages</u>.
@@ -22,7 +24,7 @@ export function Intro(props) {
                             <p>Very high endurance</p>
                             <p>Very low endurance</p>
                         </div>
-                        <input type="range" defaultValue={20} orient="vertical"/>
+                        <input type="range" value={20} orient="vertical"/>
                     </div>
 
                     <div className="set-container">
@@ -30,7 +32,7 @@ export function Intro(props) {
                             <p>Very high endurance</p>
                             <p>Very low endurance</p>
                         </div>
-                        <input type="range" defaultValue={95} orient="vertical"/>
+                        <input type="range" value={95} orient="vertical"/>
                     </div>
                 </div>
                 <p>If someone places a mark at the spot seen on the left, this means they think the endurance is rather low, though not extremely low.</p>
