@@ -38,6 +38,9 @@ npm run dev
 
 Then open your browser and navigate to the local server (usually http://localhost:5173).
 
+You should see the application running like the example below:
+![Demo](gbpfi-vas-demo.gif)
+
 ## ⚙️ Scripts
 
 - `npm run dev` – start the development server
